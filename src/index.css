@@ -11,3 +11,163 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 164, 56, 0.09);
+}
+
+.logo {
+  background: rgba(240, 14, 14, 0.10);
+}
+
+.logo p {
+  color: #039;
+  font-family: 'Aleo';
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 20px;
+  padding-right: 70px;
+}
+
+.Header__menu {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  list-style: none;
+  
+}
+
+.Header__menu a {
+  color: #393939;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  padding: 20px;
+
+}
+
+.Contant {
+  background: rgba(210, 0, 164, 0.10);
+}
+
+.Number {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: #393939;
+  text-align: center;
+  font-size: 288px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: rgba(23, 10, 10, 0.09);
+}
+
+.Buttons {
+  display: flex;
+  justify-content: space-evenly;
+  background: rgba(21, 101, 147, 0.10);
+}
+
+.btnPlus button {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  border: 2px greenyellow solid;
+  background-color: greenyellow;
+  color: #FFF;
+  text-align: center;
+  font-family: Aleo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btnMinus button {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  border: 2px red;
+  background-color: red;
+  color: #FFF;
+  text-align: center;
+  font-family: Aleo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btnRefresh img {
+  width: 29px;
+}
+.btnRefresh button {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  border: 2px #E5E5E5;
+  border-radius: 27px;
+  background: #E5E5E5;      
+}
+
+.btnPlus , .btnMinus , .btnRefresh {
+  margin: 40px;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  background-color:rgba(112, 255, 0, 0.09);;
+}
+
+.FootMenu {
+  display: flex;
+  column-gap: 15px;
+  padding-top: 70px;
+}
+
+.FootMenu p {
+  color: rgba(0, 0, 0, 0.50);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.copyright {
+  padding-top: 70px;
+  padding-right: 30px;
+}
+
+.copyright p {
+  color: rgba(0, 0, 0, 0.50);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+

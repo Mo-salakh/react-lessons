@@ -1,21 +1,24 @@
 
 import './App.css';
-import Text from './components/Text/Text';
+import Header from './components/header/Header';
+import MainContant from './components/mainContant/mainContant';
+import Footer from './components/footer/Footer';
+import './App.css'
 
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    
+    <div className='container'>
+      <Header />
+      <MainContant />
+      <Footer />
 
-        <Text name = 'Solikh' age = '22' city = 'Rostov' family = 'Cingiev' />
-        <Text name = 'Musa' age = '24' city = 'Grozny' family = 'Salamov' />
-
-      </header>
-      
     </div>
-  );
+    
+
+  )
 }
 
 export default App;
