@@ -1,11 +1,10 @@
-import Number from "./Number";
-import Buttons from "./Buttons";
+
+import Buttons from "./Main";
 
 
 function MainContant() {
     return(
       <div className="Contant">
-        <Number />
         <Buttons />
       </div>
     )
