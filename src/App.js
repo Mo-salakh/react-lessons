@@ -1,4 +1,4 @@
-
+import '../node_modules/bootstrap'
 import './App.css';
 import './App.css'
 
@@ -6,6 +6,10 @@ import './App.css'
 
 function App() {
 
+  return (
+    
+    <Messages />
+  )
 
   // Первое задание
   // const positive = [22, 0, -45, 1001, 8, -6, -0.1, 101, 2.5, -55555]
