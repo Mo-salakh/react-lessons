@@ -73,9 +73,9 @@ let Work31 = () => {
       return message = 'Hello'
     })
 
-    let concatWords = (first, second) => {
+    concatWords = ((first, second) => {
       return first + second
-    }
+    })
 
     let showConsole = () => {
       console.log('Экспо');
@@ -113,11 +113,6 @@ let Work31 = () => {
     
       return true;
     }
-
-
-return (
-
-)
 
 
 

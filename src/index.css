@@ -169,5 +169,22 @@ code {
   line-height: normal;
 }
 
+.right {
+  border-radius: 50px 50px 0px 50px;
+  font-size: 20px;
+  color: #000000b0;
+  border: #393939;
+  background-color: #ffaa00b0;
+  padding: 20px;
+}
+
+.left {
+  border-radius: 50px 50px 50px 0px;
+  font-size: 20px;
+  color: rgb(255, 222, 222);
+  border: #ffffff;
+  background-color: #000000ab;
+  padding: 20px;
+}
 
 
